@@ -1,0 +1,5 @@
+<h1> <%= @project.name %> </h1>
+
+<p> <strong> Project Name:</strong> <%= @project.name %> </p>
+
+<%= button_to "Delete #{@project.name} project", @project, :method => :delete %>

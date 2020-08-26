@@ -1,0 +1,7 @@
+<h1> Edit a New Project</h1>
+
+<%= form_for @project do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %> <br/>
+    <%= f.submit "Save your edit!" %>
+<% end %>

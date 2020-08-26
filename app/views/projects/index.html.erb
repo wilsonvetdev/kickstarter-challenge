@@ -1,0 +1,8 @@
+<h1> 🔥 All My Projects 🔥</h1>
+
+<ul>
+    <% @projects.map do |project|%>
+        <li> <%= link_to project.name, project_path(project) %> </li>
+    <%end%>
+
+</ul>
